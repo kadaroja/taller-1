@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%; 
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Encabezado */
+.encabezado {
+  background-image: url('https://mentorday.es/wikitips/wp-content/uploads/2022/11/5414738-1024x512.jpg');
+  background-size: 90% 120%;
+  background-position: bottom center; 
+  background-repeat: no-repeat; 
+  width: 100%;
+  border: 1px solid rgb(248, 247, 247);
+  height: 200px;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  gap: 10%;
+}
+
+.encabezado h1 {
+  width: 100%;
+  color: salmon;
+  text-align: center; 
+}
+
+
+main {
+  flex: 1; 
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 400px;
+}
+
+.inicio h1 {
+  width: 60%;
+  color: salmon;
+  margin-bottom: 10px;
+  text-align: center; 
+}
+
+.inicio p {
+  width: 80%;
+  margin-bottom: 30px; 
+  text-align: center;
+
+}
+
+.imagenes {
+  display: flex;
+  gap: 10px;
+  justify-content: center; 
+  margin: 10px 0; 
+}
+
+.imagenes img {
+  width: 210px; 
+  height: 210px; 
+  object-fit: cover; 
+  border-radius: 9px; 
+}
+
+/* Footer */
+.footer {
+  background-color: rgb(252, 207, 202);
+  color: rgb(163, 76, 76);
+  text-align: center;
+  padding: 20px; 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
